@@ -1,25 +1,17 @@
-# שם קובץ ההרצה שיווצר
-TARGET = compiler
+# Makefile for Flex assignment (ex1)
 
-# קבצי המקור
-LEX_FILE = lexer.l
-BISON_FILE = parser.y
-
-# מהדר ודגלים
 CC = gcc
 CFLAGS = -Wall -g
+TARGET = ex1
+LEX_FILE = ex1.lex
 
 all: $(TARGET)
 
-$(TARGET): y.tab.c lex.yy.c
-	$(CC) $(CFLAGS) -o $(TARGET) y.tab.c lex.yy.c
+$(TARGET): lex.yy.c
+	$(CC) $(CFLAGS) -o $(TARGET) lex.yy.c
 
-y.tab.c y.tab.h: $(BISON_FILE)
-	bison -d $(BISON_FILE)
-
-lex.yy.c: $(LEX_FILE) y.tab.h
+lex.yy.c: $(LEX_FILE)
 	flex $(LEX_FILE)
 
-# ניקוי קבצים זמניים (הרצה של make clean)
 clean:
-	rm -f $(TARGET) y.tab.c y.tab.h lex.yy.c
+	rm -f $(TARGET) lex.yy.c
