@@ -1,0 +1,31 @@
+# ==============================
+# macOS System Files
+# ==============================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ==============================
+# Flex & Bison Generated Files
+# ==============================
+# (אם אתה קורא לקבצי המקור שלך בשמות שונים, עדכן בהתאם)
+lex.yy.c
+y.tab.c
+y.tab.h
+y.output
+*.output
+
+# ==============================
+# C Compilation & Build Files
+# ==============================
+*.o
+*.obj
+*.out
+*.app
+
+# ==============================
+# Project Executable (שם קובץ ההרצה מה-Makefile)
+# ==============================
+compiler
+compiler.exe
