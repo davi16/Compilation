@@ -1,0 +1,7 @@
+Question 1:
+Randomized Algorithms and Probabilistic Structures
+Total score: 38
+Question 2:
+Greedy Algorithms and Matroid Theory
+Total score: 62
+Valid input: the scores add up to 100.

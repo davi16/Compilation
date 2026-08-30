@@ -1,0 +1,10 @@
+[exam]
+[question] 1
+"Randomized Algorithms and Probabilistic Structures"
+[section] 1 [score] 8
+[section] 2 [score] 30
+[question] 2
+"Greedy Algorithms and Matroid Theory"
+[section] 1 [score] 14
+[section] 2 [score] 20
+[section] 3 [score] 28
