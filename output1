@@ -1,0 +1,28 @@
+Token     Lexeme
+QUESTION  [question]
+NUM       1
+TOPIC     "Randomized Algorithms and Probabilistic Structures"
+SECTION   [section]
+NUM       1
+SCORE     [score]
+NUM       8
+SECTION   [section]
+NUM       2
+SCORE     [score]
+NUM       30
+QUESTION  [question]
+NUM       2
+TOPIC     "Greedy Algorithms and Matroid Theory"
+SECTION   [section]
+NUM       1
+SCORE     [score]
+NUM       14
+SECTION   [section]
+NUM       2
+SCORE     [score]
+NUM       20
+SECTION   [section]
+NUM       3
+SCORE     [score]
+NUM       28
+Valid input: the scores add up to 100.
